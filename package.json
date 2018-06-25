@@ -1,0 +1,10 @@
+{
+  "name": "REST-Tester",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GeorgeMarkham/REST-Tester.git",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
