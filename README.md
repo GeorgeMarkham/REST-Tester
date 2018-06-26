@@ -36,4 +36,5 @@ OR
 	"content": "This content has also been updated"
 }
 ```
+hit send and you'll see the following:
 ![GET response](https://github.com/GeorgeMarkham/REST-Tester/raw/master/example_imgs/3.png)
