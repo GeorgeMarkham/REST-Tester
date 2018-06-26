@@ -67,3 +67,6 @@ Hit send and you'll see the following:
 
 7. If you run another GET request you should see the following output:
 ![GET request](https://github.com/GeorgeMarkham/REST-Tester/raw/master/example_imgs/6.png)
+
+
+_You can also run a GET request on a specific id such as `http://localhost:8080/api/1`_
