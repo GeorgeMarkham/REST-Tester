@@ -73,7 +73,7 @@ app.post("/api", (request, response)=>{
     const id = request.body.id;
 
     //Check id exists in the data collection and return 400 otherwise
-    if(data[id] != null) { 
+    if(data[id] != null) {
         //Insert data to the object at id where id is the key and request.body is an object containing the sent data
         data[id] = request.body;
         //Send the data with a success key to let the client know that the transaction was a success
@@ -82,7 +82,7 @@ app.post("/api", (request, response)=>{
             "data":data[id]
         });
     } else {
-        response.sendStatus(400)
+        response.sendStatus(400);
     }
 });
 
@@ -92,7 +92,7 @@ app.put("/api", (request, response)=>{
     //Get the id from the body of the post request
     const id = request.body.id;
 
-    //Check id exists in the data collection and return 400 otherwise
+    //Check id doesn't exist in the data collection and return 400 otherwise
     if(data[id] == null) { 
         //Insert data to the object at id where id is the key and request.body is an object containing the sent data
         data[id] = request.body;
@@ -102,12 +102,26 @@ app.put("/api", (request, response)=>{
             "data":data[id]
         });
     } else {
-        response.sendStatus(400)
+        response.sendStatus(400);
     }
 });
 
 app.delete("/api", (request, response)=>{
-    
+    //Get the id from the body of the post request
+    const id = request.body.id;
+
+    //Check id exists in the data collection and return 400 otherwise
+    if(data[id] != null) {
+        //The delete operator allows a key to be deleted from an object
+        delete data[id];
+        
+        //Send just a success message as the data has now been deleted
+        response.json({
+            "success": true,
+        });
+    } else {
+        response.sendStatus(400);
+    }
 });
 
 //Listen on PORT
