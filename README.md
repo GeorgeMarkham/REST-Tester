@@ -12,6 +12,8 @@
 
 ## To install:
 ```
+    git clone https://github.com/GeorgeMarkham/REST-Tester.git
+    cd REST-Tester
     npm install
 ```
 
