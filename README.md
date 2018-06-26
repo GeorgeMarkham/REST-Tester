@@ -20,4 +20,4 @@ OR
 
 ## Using Postman:
 1. When you start Postman you'll see this screen
-![alt text]()
+![alt text](https://github.com/GeorgeMarkham/REST-Tester/raw/master/example_imgs/0.png)
