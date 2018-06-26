@@ -13,7 +13,7 @@
 ```
     npm start
 ```
-_OR_
+OR
 ```
     node server.js
 ```
