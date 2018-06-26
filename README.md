@@ -2,6 +2,8 @@
 
 ## Contents
 * [Requirements](https://github.com/GeorgeMarkham/REST-Tester#requirements)
+* [Installation](https://github.com/GeorgeMarkham/REST-Tester#to-install)
+* [How to run the server](https://github.com/GeorgeMarkham/REST-Tester#to-run)
 * [Using Postman](https://github.com/GeorgeMarkham/REST-Tester#using-postman)
 
 ## Requirements:
