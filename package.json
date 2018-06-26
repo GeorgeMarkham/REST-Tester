@@ -5,6 +5,7 @@
   "repository": "https://github.com/GeorgeMarkham/REST-Tester.git",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3"
   }
 }
