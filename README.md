@@ -1,6 +1,8 @@
 # REST-Tester
 
+## Contents
 * [Requirements](https://github.com/GeorgeMarkham/REST-Tester#requirements)
+* [Using Postman](https://github.com/GeorgeMarkham/REST-Tester#using-postman)
 
 ## Requirements:
 * Must have node & npm installed: https://nodejs.org/en/
